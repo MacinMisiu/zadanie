@@ -1,0 +1,13 @@
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\bin\Debug\netcoreapp3.1\MyFirstCSharpApp.exe
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\bin\Debug\netcoreapp3.1\MyFirstCSharpApp.deps.json
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\bin\Debug\netcoreapp3.1\MyFirstCSharpApp.runtimeconfig.json
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\bin\Debug\netcoreapp3.1\MyFirstCSharpApp.runtimeconfig.dev.json
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\bin\Debug\netcoreapp3.1\MyFirstCSharpApp.dll
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\bin\Debug\netcoreapp3.1\MyFirstCSharpApp.pdb
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.csprojAssemblyReference.cache
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.AssemblyInfoInputs.cache
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.AssemblyInfo.cs
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.csproj.CoreCompileInputs.cache
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.dll
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.pdb
+C:\Users\marci\OneDrive\Pulpit\ok\wiziual studio\c#\MyFirstCSharpApp\MyFirstCSharpApp\obj\Debug\netcoreapp3.1\MyFirstCSharpApp.genruntimeconfig.cache
