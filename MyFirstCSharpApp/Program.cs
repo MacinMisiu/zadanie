@@ -6,29 +6,48 @@ namespace MyFirstCSharpApp
     {
         static void Main(string[] args)
         {
-            int krasnale = 3;
-            Console.WriteLine("Ilość krasnali: " + krasnale +" ");
+            Console.Write("Podaj Ilość krasnali: ");
+            string line = Console.ReadLine();
+            int krasnale = int.Parse(line);
 
-            float krasnal0 = 16.6f;
-            float krasnal1 = 12.7f;
-            float krasnal2 = 8.8f;
+            int n = krasnale;
 
-            Console.WriteLine("Zloto krasnala nr.0: " + krasnal0 + " ");
-            Console.WriteLine("Zloto krasnala nr.1: " + krasnal1 + " ");
-            Console.WriteLine("Zloto krasnala nr.2: " + krasnal2 + " ");
 
-            float suma = (krasnal0 + krasnal1 + krasnal2);
-            Console.WriteLine("W sumie krasnale maja: " + suma + " zlota ");
+            Console.WriteLine("Podaj Ilość złota: ");
 
-            float srednia = suma / 3;
-            Console.WriteLine("Średnio każdy krasnal ma: " + srednia + " zlota ");
+            double[] gold = new double[n];
+            double sumazlota = 0;
+            for (int i = 0; i< n; i++)
+            {
+                line = Console.ReadLine();
+                double ilosczlotakrasnala = double.Parse(line);
+                gold[i] = ilosczlotakrasnala;
+                sumazlota += ilosczlotakrasnala;
+                
+            }
+            double sredniazlota = (sumazlota / n);
+            Console.WriteLine("Suma zlota = " + sumazlota);
+            Console.WriteLine("Srednia zlota = " + sredniazlota);
 
-            float krasnal0wynagrodzenie = (krasnal0 - srednia);
-            float krasnal1wynagrodzenie = (krasnal1 - srednia);
-            float krasnal2wynagrodzenie = (srednia - krasnal2);
-            Console.WriteLine("Krasnal nr.0 powinien oddać: " + krasnal0wynagrodzenie + " ponieważ zebrał więcej złota niż średnia ");
-            Console.WriteLine("Krasnal nr.1 powinien oddać: " + krasnal1wynagrodzenie + " ponieważ zebrał tyle ile wynosi średnia ");
-            Console.WriteLine("Krasnal nr.2 powinien otrzymać: " + krasnal2wynagrodzenie + " ponieważ zebrał mniej niż wynosi średnia ");
+            for (int i = 0; i < n; i++)
+            {
+                double roznicazlota = (sredniazlota - gold[i]);
+                if(roznicazlota>0)
+                {
+                    Console.WriteLine("Krasnal nr." + i + " ma otrzymać " + roznicazlota + " zlota");
+                }
+                else if(roznicazlota<0)
+                {
+                    Console.WriteLine("Krasnal nr." + i + " ma oddać " + (-roznicazlota) + " zlota");
+                }
+                else
+                {
+                    Console.WriteLine("Krasnal nr." + i + " ma tyle złota ile ma mieć");
+                }
+            }
+
+
+
         }
     }
 }
